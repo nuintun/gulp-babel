@@ -61,8 +61,6 @@ module.exports = function(options) {
 
         vinyl.babel = result.metadata;
       }
-
-      this.push(vinyl);
     };
 
     try {
@@ -70,6 +68,8 @@ module.exports = function(options) {
     } catch (error) {
       logger.error(`Babel`, error.stack);
     }
+
+    this.push(vinyl);
 
     next();
   });

@@ -1,0 +1,29 @@
+{
+  "name": "gulp-babel",
+  "version": "0.0.1",
+  "description": "Gulp plugin for Babel.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuintun/gulp-babel.git"
+  },
+  "keywords": ["gulp"],
+  "author": {
+    "name": "nuintun",
+    "email": "nuintun@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuintun/gulp-babel/issues"
+  },
+  "homepage": "https://github.com/nuintun/gulp-babel#readme",
+  "dependencies": {
+    "gulplog": "^1.0.0",
+    "replace-ext": "^1.0.0",
+    "@nuintun/through": "^0.0.1",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "peerDependencies": {
+    "babel-core": ">=6.0.0"
+  }
+}
